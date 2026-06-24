@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="IsXV7exbIp1DaFizAorhJMRPR6h0OJB2WtKeJ4Kr34" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aladdin’s | Premium UK Takeaway for Pizza & Grill</title>
+    <link rel="shortcut icon" type="image/jpg" href="./assets/images/logo/fav-icon.jpg" />
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5ZJ2MFF4');</script>
+    <!-- End Google Tag Manager -->
+    <!-- fonts -->
+    <link rel="stylesheet" href="./assets/fonts/gasoek-one/stylesheet.css" as="font" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/fonts/avenir/stylesheet.css" as="font" crossorigin="anonymous" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/plugins/booststrap/css/main.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./assets/plugins/font-awesome/all.min.css" />
+    <!-- remixicons -->
+    <link rel="stylesheet" href="./assets/plugins/remixicons/remixicon.css" />
+    <!-- custome css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/resp.css" />
+</head>
+
+<body id="page-body" class="home-body">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZJ2MFF4"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- Loader -->
+    <div id="loader">
+        <img src="./assets/videos/loading.gif" alt="Loading..." width="100" />
+    </div>
+    <main>
+        <!-- overlay -->
+        <div class="page-overlay" id="overlay"></div>
+        <!-- Header -->
+        <header id="header">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="brand-logo">
+                        <a href="/">
+                            <img src="./assets/images/logo/logo-white.png" alt="Aladdins Logo" class="logo shadow" />
+                        </a>
+                    </div>
+                    <div class="hamburger-menu" id="openmenu">
+                        <div class="menu-btn">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                    <ul class="nav-links">
+                        <li class="nav-link-li home-nav-link-li">
+                            <a href="/" class="nav-link active">home</a>
+                        </li>
+                        <li class="nav-link-li about-nav-link-li">
+                            <a href="stores.html" class="nav-link">our stores</a>
+                        </li>
+                        <li class="nav-link-li contact-nav-link-li">
+                            <a href="event.html" class="nav-link">events</a>
+                        </li>
+                        <li class="nav-link-li menu-nav-link-li">
+                            <a href="allergen.html" class="nav-link">allergen</a>
+                        </li>
+                        <li class="nav-link-li contact-nav-link-li">
+                            <a href="contact.html" class="nav-link">contact us</a>
+                        </li>
+                        <!-- <li class="nav-link-li partner-nav-link-li specialized-nav-li">
+                            <a href="franchise.html" class="nav-link">become a partner</a>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- home hero section -->
+        <section class="home-hero-section">
+            <video autoplay loop playsinline muted id="main-video">
+                <source src="assets/videos/banner-video.mp4" type="video/mp4" />
+            </video>
+            <div class="container">
+                <div class="home-hero-content text-center">
+                    <img src="./assets/images/logo/logo-white.png" alt="Aladdin’s Logo" class="img-fluid logo" />
+                    <form class="ta-search" onsubmit="return search();">
+                        <div class="input-group">
+                            <input type="text" onkeyup="checkPostCode(this.value);" maxlength="8" size="8" name="postcode" autofocus id="postcode" placeholder="Enter Postcode" class="form-control">
+                            <button class="order-btn" type="submit">order now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- home about section -->
+        <section class="home-about-section">
+            <div class="container">
+                <div class="home-about-content text-center">
+                    <h1>About us</h1>
+                    <p>
+                        At Aladdin’s, we have built our multiple award-winning brand on a passion for great food, genuine care, and a commitment to serving every community with quality and consistency. What started as a single store has grown into a trusted, design-led takeaway brand that reflects our dedication to flavour, freshness, and dependable service. Every step of our journey is guided by the promise to deliver a memorable experience, one meal at a time.
+                    </p>
+                    <p>
+                         From freshly prepared pizzas to crowd-favourite kebabs and grills, Aladdin's is committed to delivering flavour, convenience, and a smooth ordering experience from start to finish ensuring customers receive reliable service, day after day. Whether you are collecting or ordering for delivery, you can always count on us for quality and speed.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- home banner section -->
+        <section class="home-banner-section pt-0">
+            <div class="banner-wrapper"></div>
+        </section>
+
+        <!-- home wait section -->
+        <section class="home-wait-section pt-4">
+            <div class="container">
+                <div class="wait-content-wrapper">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-5">
+                            <div class="wait-title-wrapper">
+                                <h3>why<br />wait</h3>
+                                <span>?</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7">
+                            <div class="wait-para">
+                                <p>
+                                    Our delivery service is designed to be quick, dependable and efficient. Freshly prepared meals are brought straight to your home, ready for you to enjoy. Whether you are treating the family, hosting friends or looking for something comforting after a long day, Aladdin’s offers convenient and high quality food delivery that suits every occasion. Find your nearest Aladdin’s location today and enjoy fresh, flavourful meals delivered to your doorstep.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- home app section -->
+        <section class="home-app-section">
+            <div class="home-app-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="app-content">
+                            <h2>Download <br /> our app</h2>
+                            <div class="app-btn-flex">
+                                <div class="app-btn">
+                                    <a href="https://apps.apple.com/gb/app/aladdins/id6503891638" target="_blank">
+                                        <img src="./assets/images/homepage/appstore.png" alt="Aladdin’s App Store" class="img-fluid" />
+                                    </a>
+                                </div>
+                                <div class="app-btn">
+                                    <a href="https://play.google.com/store/apps/details?id=co.uk.aladdinspizza" target="_blank">
+                                        <img src="./assets/images/homepage/googleplay.png" alt="Aladdin’s Play Store" class="img-fluid" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="./assets/images/homepage/phone.png" alt="Aladdin’s Mobile" class="img-fluid w-100" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- home gallery section -->
+        <section class="home-gallery-section pt-0">
+            <div class="container">
+                <h3 class="text-center">Our Gallery</h3>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-1.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Southern fried chicken</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-2.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Zinger burger with chips</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-5.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">S.F.Wings meal</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-6.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Fish and chips</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-3.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Chicken fillet wrap</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-4.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Mixed kebab meal</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-7.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Pizza box</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-8.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Meaty Man pizza</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-9.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Aero mint shake</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-10.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">M&M choc waffle</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-11.png) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Smash Burger meal</h6>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6">
+                        <div class="gallery-wrapper" style="background: url(assets/images/homepage/gallery-12.jpg) no-repeat center / cover;">
+                            <h6 class="gallery-item-name">Chicken strips</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- hero news section -->
+        <section class="hero-news-section pt-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center mb-4">
+                        <img src="assets/images/homepage/Banner.jpg" alt="Aladdin’s banner" class="img-fluid w-100">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./assets/images/homepage/2.jpg" alt="Aladdin’s Poser" class="img-fluid w-100 poster-1" />
+                    </div>
+                    <div class="col-md-4">
+                        <div class="news-title">
+                            <h4 class="text-center">Fresh Offers  <br /> Just for You</h4>
+                        </div>
+                        <img src="./assets/images/homepage/1.jpg" alt="Aladdin’s Poser" class="img-fluid w-100 poster-2" />
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./assets/images/homepage/3.jpg" alt="Aladdin’s Poser" class="img-fluid w-100 poster-3" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- video section -->
+        <section class="video-section pt-0">
+            <div class="container">
+                <div class="video-wrapper">
+                    <video autoplay loop playsinline muted id="secondary-video">
+                        <source src="assets/videos/slideshow-without-dishnames.mp4" type="video/mp4" />
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="footer-brand-logo text-center">
+                    <a href="/">
+                        <img src="https://public.touch2success.com/static/faf95afc82ad1efefc9d83e767e5b747/img/1781120322phpaHMHWD.png" alt="Aladdin’s Footer Logo" class="img-fluid footer-logo" />
+                    </a>
+                </div>
+                <div class="text-center my-4">
+                    <h6 class="footer-social-title">Follow us on</h6>
+                    <div class="social-media-links">
+                        <div class="social-link">
+                            <a href="https://www.facebook.com/AladdinsPizzaKebab/" target="_blank">
+                                <img src="./assets/images/homepage/fb.png" alt="Aladdin’s FB Icon" class="img-fluid icon" />
+                            </a>
+                        </div>
+                        <div class="social-link">
+                            <a href="https://www.instagram.com/aladdins_pizza_kebab/?hl=en" target="_blank">
+                                <img src="./assets/images/homepage/insta.png" alt="Aladdin’s Insta Icon" class="img-fluid icon" />
+                            </a>
+                        </div>
+                        <div class="social-link">
+                            <a href="https://www.tiktok.com/@aladdins_pizza" target="_blank">
+                                <img src="./assets/images/homepage/tiktok.png" alt="Aladdin’s tiktok Icon" class="img-fluid icon" />
+                            </a>
+                        </div>
+                        <div class="social-link">
+                            <a href="https://wa.me/447956499246" target="_blank">
+                                <img src="assets/images/homepage/whatsapp.png" alt="Aladdin’s whatsapp Icon" class="img-fluid icon" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="cc-content text-center">
+                    All Rights Reserved Aladdin’s. Built with ❤️ by <a>Foodhub</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <!-- Jquery -->
+    <script src="./assets/plugins/jquery/slim.js"></script>
+    <!-- bootstrap -->
+    <script src="./assets/plugins/booststrap/js/main.js"></script>
+    <script src="./assets/plugins/booststrap/js/popper.js"></script>
+    <!-- font awesome -->
+    <script src="./assets/plugins/font-awesome/all.min.js"></script>
+    <!-- ionicons -->
+    <!-- custome js -->
+    <script src="./assets/js/script.js"></script>
+    <script>
+        var url = "https://aladdinsorder.com/location/-/"; 
+        // make sure that you enter the url of the franchise including https:// and /list/ at the end
+        // to customise the error for invalid alert use class invalidAlert or id invalidAlert
+        function checkPostCode(e){var t="[abcdefghijklmnoprstuwyz]",o="[abcdefghklmnopqrstuvwxy]",n="[abdefghjlnpqrstuwxyz]",s=new Array;s.push(new RegExp("^("+t+"{1}"+o+"?[0-9]{1,2})(\\s*)([0-9]{1}"+n+"{2})$","i")),s.push(new RegExp("^("+t+"{1}[0-9]{1}[abcdefghjkstuw]{1})(\\s*)([0-9]{1}"+n+"{2})$","i")),s.push(new RegExp("^("+t+"{1}"+o+"?[0-9]{1}[abehmnprvwxy]{1})(\\s*)([0-9]{1}"+n+"{2})$","i")),s.push(/^(GIR)(\s*)(0AA)$/i),s.push(/^(bfpo)(\s*)([0-9]{1,4})$/i),s.push(/^(bfpo)(\s*)(c\/o\s*[0-9]{1,3})$/i),s.push(/^([A-Z]{4})(\s*)(1ZZ)$/i);for(var p=e,c=!1,r=0;r<s.length;r++)if(s[r].test(p)){s[r].exec(p),p=(p=RegExp.$1.toUpperCase()+" "+RegExp.$3.toUpperCase()).replace(/C\/O\s*/,"c/o "),c=!0;break}return document.getElementById("postcode").value=p,!!c&&p}function customAlert(e,t){var o=document.createElement("div");o.innerHTML="<span class='invalidAlert' id='invalidAlert'>"+e+"</span>",setTimeout(function(){o.parentNode.removeChild(o)},t),document.querySelector(".ta-search").appendChild(o)}function search(){var e=document.getElementById("postcode").value;return checkPostCode(e)?window.location.replace(url+e):(document.getElementById("postcode").focus(),customAlert("Please enter a valid postcode","2000")),!1}
+    </script>
+</body>
+</html>
