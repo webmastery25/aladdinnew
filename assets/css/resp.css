@@ -94,7 +94,7 @@ img.contact-img {max-width:800px;}
     /* typo */
     h1 {font-size: 60px;}
     p {font-size: 20px;}
-    .news-card h4 { font-size: 13px;}
+    .news-card h4 { font-size: 13px !important}
     /* navbar */
     .navbar .brand-logo .logo { width: 150px;}
     .navbar .nav-links { gap: 25px;padding-top: 20px;}
@@ -116,8 +116,8 @@ img.contact-img {max-width:800px;}
     .kit-main p ,.honor-cnt p{font-size: 19px;}
     .honor-wall:before{width:calc(100% - 50px);max-height: 280px;top:40%;transform: translate(-50% , -60%);}
     .news-card img {height: 220px;}
-    .news-card h4 {font-size: 22px;}
-    .news-card p {font-size: 16px;}
+    .news-card p {font-size: 14px;}
+    .news-card h4 span {font-size: 14px;}
     .mid-content h6 {font-size: 22px;}
     .mid-content span {font-size: 48px;}
     .journey-content .journey-year {width: 100px; height: 100px;}
