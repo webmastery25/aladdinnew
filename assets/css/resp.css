@@ -549,7 +549,7 @@ button.contact-btn {padding:8px 35px; font-size:16px; margin:15px auto 0px auto;
 }
 
 @media (max-width: 389px) {
-    .input-group {max-width: 280px;}
+    .input-group {max-width: 279px;}
 }
 
 @media (max-width: 360px) {
