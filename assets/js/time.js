@@ -213,6 +213,15 @@ const storeTimings = {
     5: { day: 'Fri', hours: '12:00 PM - 03:00 AM' },
     6: { day: 'Sat', hours: '12:00 PM - 03:00 AM' }
   },
+  bloxwich: {
+    0: { day: 'Sun', hours: '12:00 PM - 03:00 AM' },
+    1: { day: 'Mon', hours: '12:00 PM - 03:00 AM' },
+    2: { day: 'Tue', hours: '12:00 PM - 03:00 AM' },
+    3: { day: 'Wed', hours: '12:00 PM - 03:00 AM' },
+    4: { day: 'Thu', hours: '12:00 PM - 03:00 AM' },
+    5: { day: 'Fri', hours: '12:00 PM - 03:00 AM' },
+    6: { day: 'Sat', hours: '12:00 PM - 03:00 AM' }
+  },
 };
 
 /************************************************************
